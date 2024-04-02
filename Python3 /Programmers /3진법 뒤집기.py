@@ -1,3 +1,5 @@
+# 3진법 뒤집기 : https://school.programmers.co.kr/learn/courses/30/lessons/68935?language=python3
+
 def solution(n):
     answer = 0    # 리턴할 변수
     bb = ''       # 3진법 저장할 변수
