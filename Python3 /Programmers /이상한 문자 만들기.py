@@ -9,4 +9,4 @@ def solution(s):
             else:                           # j가 홀수면 j 인덱스의 문자열 answer에 추가
                 answer += i[j]
         answer += ' '                       # 단어 한 개가 끝나면 단어 뒤에 공백 추가
-    return answer.rstrip()                  # 맨 오른쪽 끝 공백 제거하여 리턴
+    return answer[0:-1]                     # 맨 오른쪽 끝 공백 제외하고 리턴
