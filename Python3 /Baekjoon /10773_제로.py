@@ -1,4 +1,4 @@
-# 10773(제로) : https://www.acmicpc.net/problem/10773
+# 10773번(제로) : https://www.acmicpc.net/problem/10773
 
 iter_num = int(input())
 num_list = []
